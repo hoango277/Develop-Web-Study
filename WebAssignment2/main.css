@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.4s ease;;
+}
+
+body {
+    background-image: url("https://github.com/Shodydosh/QuickieOneHourLandingPage/blob/main/bg.jpg?raw=true");
+}
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    position: fixed;
+    background-color: black;
+    top: 0;
+    left: 0;
+    right:0;
+    height: 80px;
+    width: 100vw;
+    align-items: center;
+
+}
+
+.navLinks {
+    position: relative;
+    display: flex;
+    list-style: none;
+    color: white;
+    justify-content: space-around;
+}
+
+.navLinks li {
+    margin: 0 5px;
+    padding: 10px;
+}
+
+.main {
+    font-size: 25px;
+    font-weight: 500;
+    color: #FFF;
+    text-decoration: none;
+    padding-left: 30px;
+}
+
+.navLinks .reg {
+    background-color: yellow;
+    border-radius: 4px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-right: 30px;
+    color: black;
+}
+
+
+/* content*/
+.firstDiv {
+    margin-top: 200px;
+    display: flex;
+}
+.rate {
+    display: flex;
+}
+.word {
+    padding: 5px;
+}
+
+.header {
+    margin-bottom: 15px;
+    font-size: 60px;
+}
+.firstDiv {
+    padding: 20px;
+    width: 40%;
+    margin-left: 20px;
+}
+
+.header h1 {
+    margin-left: 40px;
+}
+
+.button {
+    margin-top: 50px;
+    display: flex;
+    margin-left: 35px;
+}
+
+.bt1,.bt2 {
+    border: 0;
+    background-color: #ECEC7E;
+    padding: 1.5rem 4rem;
+    margin: 1rem;
+    border-radius: 4px;
+    font-weight: 500;
+    color: black;
+}
+
+.last-one {
+    margin-top: 25px;
+    margin-left: 30px;
+    display: flex;
+}
+
+.heading1,.heading2 {
+    padding: 20px;
+}
+.heading2 {
+    margin-left : 100px;
+}
